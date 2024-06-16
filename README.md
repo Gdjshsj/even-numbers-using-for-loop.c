@@ -1,2 +1,10 @@
-# even-numbers-using-for-loop.c
-print n even numbers using for loop
+ #include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    for(int i=0;i<=n;i+=2)
+    {
+        printf("%d",i);
+    }
+}
